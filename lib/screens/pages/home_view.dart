@@ -160,6 +160,8 @@ class _HomeViewState extends State<HomeView> {
                           "desc": descController.text
                         });
                         Navigator.pop(context);
+                        titleController.clear();
+                        descController.clear();
                       },
                       child: const Text("Update")),
                 )
